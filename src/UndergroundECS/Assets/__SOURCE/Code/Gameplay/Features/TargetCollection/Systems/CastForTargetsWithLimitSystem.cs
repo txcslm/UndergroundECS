@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Code.Gameplay.Common;
 using Entitas;
+
 // ReSharper disable NotAccessedField.Local
 // ReSharper disable UnusedMember.Local
 

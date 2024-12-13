@@ -1,5 +1,4 @@
 using System;
-using DevConfigs;
 
 namespace Code.Infrastructure.RandomServices
 {
@@ -36,7 +35,7 @@ namespace Code.Infrastructure.RandomServices
 
     public float Modify(float value)
     {
-      float percent = DevConfig.RandomValuesPercentDelta;
+      float percent = 50;
       
       float randomPercent = GetRandomFloat(1f - percent, 1f + percent);
       
