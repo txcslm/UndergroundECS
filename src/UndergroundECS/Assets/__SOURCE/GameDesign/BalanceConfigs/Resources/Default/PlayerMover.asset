@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae430d0ba3f54829a9c0f716c93947b8, type: 3}
+  m_Name: PlayerMover
+  m_EditorClassIdentifier: 
+  <CanSprint>k__BackingField: 1
+  <CanJump>k__BackingField: 1
+  <CanCrouch>k__BackingField: 1
+  <CanHeadBob>k__BackingField: 1
+  <CanInteract>k__BackingField: 1
+  <UseFootsteps>k__BackingField: 1
+  <WalkSpeed>k__BackingField: 3
+  <SprintSpeed>k__BackingField: 6
+  <CrouchSpeed>k__BackingField: 1.5
+  <LookSpeedX>k__BackingField: 2
+  <LookSpeedY>k__BackingField: 2
+  <LowerLookLimit>k__BackingField: 80
+  <UpperLookLimit>k__BackingField: 80
+  <JumpForce>k__BackingField: 8
+  <Gravity>k__BackingField: 30
+  <CrouchHeight>k__BackingField: 0.5
+  <StandinghHeight>k__BackingField: 2
+  <TimeToCrouch>k__BackingField: 0.25
+  <CrouchCenter>k__BackingField: {x: 0, y: 0.5, z: 0}
+  <StandingCenter>k__BackingField: {x: 0, y: 0, z: 0}
+  <WalkBobSpeed>k__BackingField: 15
+  <WalkBobAmount>k__BackingField: 0.01
+  <SprintBobSpeed>k__BackingField: 20
+  <SprintBobAmount>k__BackingField: 0.03
+  <BaseStepSpeed>k__BackingField: 0.5
+  <CrouchStepMultiplier>k__BackingField: 1.5
+  <SprintStepMultiplier>k__BackingField: 0.6
+  <FootstepAudioSource>k__BackingField: {fileID: 0}
+  <WoodClips>k__BackingField: []
+  <StoneClips>k__BackingField: []
+  <WaterClips>k__BackingField: []
+  <GrassClips>k__BackingField: []
+  <InteractionRayPoint>k__BackingField: {x: 0, y: 0, z: 0}
+  <InteractionDistance>k__BackingField: 0
+  <InteractionLayer>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 0
